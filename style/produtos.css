@@ -1,0 +1,42 @@
+
+.produto-lista-item {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.produto-titulo {
+    text-align: center;
+    margin-top: 1em;
+}
+
+
+
+
+.produto-lista-imagem {
+        max-width: 100%;
+        width:50%;
+        height:auto;
+        margin-top: 40px;
+        margin-right:1em ;
+        border-radius: 5%;
+        border:rgb(112, 147, 80) solid 3px;
+}
+
+@media screen and (min-width:700px) {
+    .produto-lista {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .produto-lista-imagem {
+        max-width: 100%;
+        width:70%;
+        height:auto;
+        
+        margin-right:20px ;
+        border-radius: 5%;
+        border:rgb(112, 147, 80) solid 3px;
+}
+   
+}
