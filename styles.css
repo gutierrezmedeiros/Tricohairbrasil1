@@ -1,0 +1,58 @@
+@import url(style/header.css);
+@import url(style/video.css);
+@import url(style/apresentacao_curso.css);
+@import url(style/bonus.css);
+@import url(style/button_vendas.css);
+@import url(style/gutierrez_medeiros.css);
+@import url(style/redes_sociais.css);
+@import url(style/destinado.css);
+@import url(style/beneficios.css);
+@import url(style/perguntas__frequentes.css);
+@import url(style/video__estudar.css);
+@import url(style/preco.css);
+@import url(style/certificacao.css);
+@import url(style/garantia.css);
+@import url(style/curso_modulos.css);
+@import url(style/eu__quero.css);
+@import url(style/aluno__destaque.css);
+@import url(style/comentarios.css);
+@import url(style/rodape.css);
+@import url(style/slide-home.css);
+@import url(style/expert-person.css);
+@import url(style/produtos.css);
+@import url(style/whats.css);
+
+
+
+:root {
+
+    --cor-primaria:#000000;
+    --cor-secundaria:#F6F6F6;
+    --cor-da-terciaria:#EBB031;
+    --texto-margin:0 1rem 0 1rem;
+    --cor-cinza-fundo:rgb(213, 239, 214);
+    --cor-cabecalho:rgb(255, 255, 255);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*height: 100vh;*/
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+   
+
+}
+
+.titulo__inicial {
+    font-size:16px;
+    text-align:center;
+    color:var(--cor-da-terciaria);
+    margin: 1em;
+}
+
